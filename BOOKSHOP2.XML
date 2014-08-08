@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF8"?>
+<!DOCTYPE Bookstore SYSTEM "bookshop.dtd">
+<Bookstore>
+   <!--J&R Booksellers Database-->
+   <Book Genre="" In_Stock="Yes">
+      <Title>The Round Stephane Door</Title>
+      <Author>Tom Evans</Author>
+      <Year_Published>1996</Year_Published>
+      <ISBN>0-9546-0274-3</ISBN>
+      <Price>$23.00</Price>
+      <Review>An Intriguing Tale Of A Round Door In A Wall</Review>
+   </Book>
+      <Title>Creating Real Xml Applications</Title>
+      <Author>Bill Eaton</Author>
+      <Year_Published>1998</Year_Published>
+      <ISBN>7-4562-0167-8</ISBN>
+      <Price>$35.00</Price>
+      <Review>A Look At How To Build Real Xml Applications</Review>
+   <Book Genre="Non-Fiction" In_Stock="Yes">
+   </Book>
+   <Book Genre="Fiction" In_Stock="No">
+      <Title>Over The Hills Of Yukon2</Title>
+      <Author>Bert Colewell</Author>
+      <Year_Published>1993</Year_Published>
+      <ISBN>5-6524-3054-1</ISBN>
+      <Price>$22.00</Price>
+      <Review>A Warm Story About A Man And A Moose In Yukon</Review>
+   </Book>
+   <Book Genre="Fiction" In_Stock="Yes">
+      <Title>The Lion's Gold</Title>
+      <Author>Daphne Griswald</Author>
+      <Year_Published>1989</Year_Published>
+      <ISBN>6-7896-2498-2</ISBN>
+      <Price>$15.00</Price>
+      <Review>One Of The Most Compelling Books Since "The Tiger's Silver".</Review>
+   </Book>
+</Bookstore>

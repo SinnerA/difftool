@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "diff", "diff.vcxproj", "{53787D54-B17E-55AC-8BA7-E2DF4665D207}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "diffengine", "diffengine\diffengine.vcxproj", "{A0137728-E471-5122-D9AA-E8DD5B744EC9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "diffstdout", "diffstdout\diffstdout.vcxproj", "{EAAD7AAF-36EF-F949-5A7D-341FF60C3D1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53787D54-B17E-55AC-8BA7-E2DF4665D207}.Debug|Win32.ActiveCfg = Debug|Win32
+		{53787D54-B17E-55AC-8BA7-E2DF4665D207}.Release|Win32.ActiveCfg = Release|Win32
+		{A0137728-E471-5122-D9AA-E8DD5B744EC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0137728-E471-5122-D9AA-E8DD5B744EC9}.Release|Win32.ActiveCfg = Release|Win32
+		{EAAD7AAF-36EF-F949-5A7D-341FF60C3D1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAAD7AAF-36EF-F949-5A7D-341FF60C3D1E}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "diff", "diff.vcproj", "{0F691CE2-08B4-492B-ABF7-8DEECDBAA928}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "diffengine", "diffengine\diffengine.vcproj", "{4F1F3647-BA56-47FF-AC3B-E2AA66B3DAD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "diffstdout", "diffstdout\diffstdout.vcproj", "{98B0125A-E8C9-4EA9-9AC7-D2850DAF7C5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{98B0125A-E8C9-4EA9-9AC7-D2850DAF7C5C}.0 = {4F1F3647-BA56-47FF-AC3B-E2AA66B3DAD7}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0F691CE2-08B4-492B-ABF7-8DEECDBAA928}.Debug.ActiveCfg = Debug|Win32
+		{0F691CE2-08B4-492B-ABF7-8DEECDBAA928}.Debug.Build.0 = Debug|Win32
+		{0F691CE2-08B4-492B-ABF7-8DEECDBAA928}.Release.ActiveCfg = Release|Win32
+		{0F691CE2-08B4-492B-ABF7-8DEECDBAA928}.Release.Build.0 = Release|Win32
+		{4F1F3647-BA56-47FF-AC3B-E2AA66B3DAD7}.Debug.ActiveCfg = Debug|Win32
+		{4F1F3647-BA56-47FF-AC3B-E2AA66B3DAD7}.Debug.Build.0 = Debug|Win32
+		{4F1F3647-BA56-47FF-AC3B-E2AA66B3DAD7}.Release.ActiveCfg = Release|Win32
+		{4F1F3647-BA56-47FF-AC3B-E2AA66B3DAD7}.Release.Build.0 = Release|Win32
+		{98B0125A-E8C9-4EA9-9AC7-D2850DAF7C5C}.Debug.ActiveCfg = Debug|Win32
+		{98B0125A-E8C9-4EA9-9AC7-D2850DAF7C5C}.Debug.Build.0 = Debug|Win32
+		{98B0125A-E8C9-4EA9-9AC7-D2850DAF7C5C}.Release.ActiveCfg = Release|Win32
+		{98B0125A-E8C9-4EA9-9AC7-D2850DAF7C5C}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
